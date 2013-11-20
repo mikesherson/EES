@@ -1,0 +1,248 @@
+<style>
+body{
+        margin: 0 auto;
+        width: 900px;
+        background: 191970;
+}
+    title{
+        color:#e6368f;
+        font-size: 60%;}
+    #pics{ 
+         float:left;
+         margin:0; 
+         width:25%; 
+         padding:25px}
+/*                ul
+                {
+                list-style-type:none;
+                margin:0;
+                padding:0;
+                overflow:hidden;
+                }
+                        li
+                        {
+                        float:left;
+                        }
+                a:link,a:visited
+                {
+
+                display:block;
+                width:120px;
+                font-weight:bold;
+                color:#FFFFFF;
+                background-color:#98bf21;
+                text-align:center;
+                padding:4px;
+                text-decoration:none;
+                text-transform:uppercase;
+                }
+                a:hover,a:active
+                {
+                background-color:#7A991A;
+                
+                ul #navigation {
+                        display:;
+                }
+
+
+
+
+/* Header */
+header{
+        background-color: #191970;
+        height:200px;
+}        
+
+.company_name{
+        position: relative;
+        font-size: 4em;
+        padding: 65px 0px 0px 0px;
+        left:50px;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+     }
+
+.company_logo{
+        float:left;
+}
+
+/* Header End */
+
+
+/* Nav Css */
+
+nav{
+        background-color: #191970;
+}
+
+ul{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+}
+                        
+li{
+        float:left;
+        border-right: 1px solid black;
+}
+
+.navlink{
+        height:45px;
+}
+                
+a:link,a:visited{
+        display:block;
+        width:120px;
+        font-weight:bold;
+        color:#FFFFFF;
+        background-color:#191970;
+        text-align:center;
+        padding:4px;
+        text-decoration:none;
+        text-transform:uppercase;
+}
+                
+a:hover,a:active{
+        background-color:#7A991A;
+}
+
+/* Nav CSS End */
+
+
+
+/* Contact Page */
+
+#contactmaps{
+        width: 950px;        
+        height: 450px;
+}
+
+.contact_hdr{
+        margin: 0px 15px;
+        padding: 30px;
+        font-size: 1.75em;
+        font
+}
+
+.contact_table{
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 0px;
+        margin: 0px;
+}
+
+.comment_txt_area{
+        width:500px;
+        height:300px;
+}
+
+.contact_table{
+        margin: 20px 120px;
+        background: #bbbbbb;
+        box-shadow: 2px 2px 2px, -2px -2px -2px; 
+}
+
+.contact_maps_txt{
+        margin:25px;
+}
+
+iframe{
+        margin: 20px auto 0px;
+}
+
+/* Contact Page End */
+
+
+
+/* Video Page */
+.video_description_above{
+        font-size: 32px;
+        color: white;
+        padding: 3px 20px;
+        background-color:#191970;
+        display:block;
+
+}
+
+.video_description_below{
+        color: white;
+        font-size: 18px;
+        padding: 3px 20px;
+        background-color:#191970;
+        display:block;
+}
+
+/* Video Page End */
+
+
+
+
+
+/* Footer */
+
+footer{
+        height: 50px; 
+        width: 100%;
+        background-color: #191970;
+}
+
+.copyright{
+        float:left;
+        width:250px;
+        padding: 20px 25px;
+}
+
+.date_display{
+        padding: 20px 25px;
+}
+
+/* Footer End */
+
+
+/* Misc */
+.hr{
+        height
+}
+/*                                .aboutus{        
+                                        padding-top: .5em;
+                                        width:  inherit;
+                                        height: inherit;
+                                        text-indent: 200px;
+                                        font-size: 4em;
+                                        font-style: block;
+                                        background-color: #98bf21;
+                                                }
+                                .company{
+                                        font-size: 1.8em;
+                                        margin-top:  20px;
+                                        margin-left: 200px;
+                                        text-align: justify;
+                                        font-style: italic;
+                                        background-color: #98bf21;
+                                }        
+                                .Happy_Family{
+                                        padding-top: 2em;
+                                        padding-bottom: 50px;
+                                        float: right;
+                                        width:  610px;
+                                        height: 300px;
+
+                                }
+                                .emaillink{
+                                        clear:both;
+                                        width: 400px;
+                                        padding-top: 50px;
+                                        padding-bottom: 20em;
+                                        background-color: #98bf21;
+
+                                }
+
+</style>
