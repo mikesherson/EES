@@ -1,17 +1,67 @@
 <style>
-body{
+
+<header>
+    .company_info{    
+        background-color: gray;
+        width: auto;
+        height: relative;
+} 
+
+    .company_name{
+        text-align: center;
+        font-style: italic;
+        font-size: 4em;
+        font-family: Helvetica;
+/*      padding: 65px 0px 0px 0px;
+        left:50px;
+*/
+        color: red;
+        height: relative;
+        background-color: gray;
+}
+
+    .company_logo{
+        display: inline;
+        float:left;
+        left-margin:10px;
+}
+           
+</header>
+
+<body{
         margin: 0 auto;
         width: 900px;
-        background: 191970;
+        background: gray;
 }
-    title{
-        color:#e6368f;
+/*    title{
+        text-align: center
+        color=#e6368f;
         font-size: 60%;}
+*/
     #pics{ 
-         float:left;
+         display: inline;
          margin:0; 
-         width:25%; 
-         padding:25px}
+         width: auto;
+         height: 100px;
+         position: center; }
+
+    .textcolumn{
+        display: inline-block;
+/*        margin:0;    */
+        width: 33%;
+        height: 100px;
+        border-top: black;
+        border-left: black;
+        border-right: black;
+        border-bottom: black;
+
+/*        padding-left: auto+10px;
+        padding-right: auto+10px;
+*/
+    }
+
+
+/*         padding:10px */}
 /*                ul
                 {
                 list-style-type:none;
@@ -48,27 +98,16 @@ body{
 
 
 /* Header */
-header{
-        background-color: #191970;
-        height:200px;
-}        
 
-.company_name{
-        position: relative;
-        font-size: 4em;
-        padding: 65px 0px 0px 0px;
-        left:50px;
-}
 
+
+/*
 IMG.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto
      }
-
-.company_logo{
-        float:left;
-}
+*/
 
 /* Header End */
 
@@ -76,17 +115,19 @@ IMG.displayed {
 /* Nav Css */
 
 nav{
-        background-color: #191970;
+        background-color: gray;
 }
 
 ul{
+        background-color: gray;
         list-style-type:none;
-        margin:0;
-        padding:0;
+/*        margin:2em; */
+        padding:1em;
         overflow:hidden;
         border-left: 1px solid black;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
+        width: 100%;
 }
                         
 li{
@@ -95,15 +136,15 @@ li{
 }
 
 .navlink{
-        height:45px;
+        height:16px;
 }
                 
 a:link,a:visited{
         display:block;
         width:120px;
         font-weight:bold;
-        color:#FFFFFF;
-        background-color:#191970;
+        color:red;
+        background-color:gray;
         text-align:center;
         padding:4px;
         text-decoration:none;
@@ -111,7 +152,7 @@ a:link,a:visited{
 }
                 
 a:hover,a:active{
-        background-color:#7A991A;
+        background-color:blue;
 }
 
 /* Nav CSS End */
@@ -119,7 +160,7 @@ a:hover,a:active{
 
 
 /* Contact Page */
-
+/*
 #contactmaps{
         width: 950px;        
         height: 450px;
@@ -153,7 +194,7 @@ a:hover,a:active{
 .contact_maps_txt{
         margin:25px;
 }
-
+*/
 iframe{
         margin: 20px auto 0px;
 }
@@ -167,7 +208,7 @@ iframe{
         font-size: 32px;
         color: white;
         padding: 3px 20px;
-        background-color:#191970;
+        background-color:gray;
         display:block;
 
 }
@@ -176,7 +217,7 @@ iframe{
         color: white;
         font-size: 18px;
         padding: 3px 20px;
-        background-color:#191970;
+        background-color:gray;
         display:block;
 }
 
@@ -191,13 +232,13 @@ iframe{
 footer{
         height: 50px; 
         width: 100%;
-        background-color: #191970;
+        background-color: gray;
 }
 
 .copyright{
-        float:left;
-        width:250px;
-        padding: 20px 25px;
+        float:center;
+        width:100px;
+        padding: 0px 0px;
 }
 
 .date_display{
@@ -208,6 +249,7 @@ footer{
 
 
 /* Misc */
+/*
 .hr{
         height
 }
@@ -244,5 +286,5 @@ footer{
                                         background-color: #98bf21;
 
                                 }
-
+*/
 </style>
