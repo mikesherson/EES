@@ -2,7 +2,7 @@
 body{
         margin: 0 auto;
         width: 900px;
-        background: 191970;
+        background: blue;
 }
     title{
         color:#e6368f;
@@ -49,7 +49,7 @@ body{
 
 /* Header */
 header{
-        background-color: #191970;
+        background-color: #blue;
         height:200px;
 }        
 
@@ -76,7 +76,7 @@ IMG.displayed {
 /* Nav Css */
 
 nav{
-        background-color: #191970;
+        background-color: #blue;
 }
 
 ul{
@@ -103,7 +103,7 @@ a:link,a:visited{
         width:120px;
         font-weight:bold;
         color:#FFFFFF;
-        background-color:#191970;
+        background-color:#blue;
         text-align:center;
         padding:4px;
         text-decoration:none;
@@ -167,7 +167,7 @@ iframe{
         font-size: 32px;
         color: white;
         padding: 3px 20px;
-        background-color:#191970;
+        background-color:#blue;
         display:block;
 
 }
@@ -176,7 +176,7 @@ iframe{
         color: white;
         font-size: 18px;
         padding: 3px 20px;
-        background-color:#191970;
+        background-color:#blue;
         display:block;
 }
 
@@ -191,7 +191,7 @@ iframe{
 footer{
         height: 50px; 
         width: 100%;
-        background-color: #191970;
+        background-color: #blue;
 }
 
 .copyright{
@@ -244,5 +244,5 @@ footer{
                                         background-color: #98bf21;
 
                                 }
-
+*/
 </style>
