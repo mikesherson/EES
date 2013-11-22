@@ -31,7 +31,11 @@
 <body{
         margin: 0 auto;
         width: 900px;
+<<<<<<< HEAD
         background: gray;
+=======
+        background: blue;
+>>>>>>> gh-pages
 }
 /*    title{
         text-align: center
@@ -98,6 +102,13 @@
 
 
 /* Header */
+<<<<<<< HEAD
+=======
+header{
+        background-color: #blue;
+        height:200px;
+}        
+>>>>>>> gh-pages
 
 
 
@@ -115,7 +126,11 @@ IMG.displayed {
 /* Nav Css */
 
 nav{
+<<<<<<< HEAD
         background-color: gray;
+=======
+        background-color: #blue;
+>>>>>>> gh-pages
 }
 
 ul{
@@ -143,8 +158,13 @@ a:link,a:visited{
         display:block;
         width:120px;
         font-weight:bold;
+<<<<<<< HEAD
         color:red;
         background-color:gray;
+=======
+        color:#FFFFFF;
+        background-color:#blue;
+>>>>>>> gh-pages
         text-align:center;
         padding:4px;
         text-decoration:none;
@@ -208,7 +228,11 @@ iframe{
         font-size: 32px;
         color: white;
         padding: 3px 20px;
+<<<<<<< HEAD
         background-color:gray;
+=======
+        background-color:#blue;
+>>>>>>> gh-pages
         display:block;
 
 }
@@ -217,7 +241,11 @@ iframe{
         color: white;
         font-size: 18px;
         padding: 3px 20px;
+<<<<<<< HEAD
         background-color:gray;
+=======
+        background-color:#blue;
+>>>>>>> gh-pages
         display:block;
 }
 
@@ -232,7 +260,11 @@ iframe{
 footer{
         height: 50px; 
         width: 100%;
+<<<<<<< HEAD
         background-color: gray;
+=======
+        background-color: #blue;
+>>>>>>> gh-pages
 }
 
 .copyright{
